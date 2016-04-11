@@ -1,0 +1,15 @@
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.pdb
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.Puffin.apk
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.Puffin-Signed.apk
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\Puffin.csprojResolveAssemblyReference.cache
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\Puffin.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\Puffin.pdb
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\android\bin\Puffin.Puffin.apk
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\main.xml
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\values\strings.xml
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\icon.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\R.cs.flag
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\uploadflags.txt
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\Puffin.dll.mdb
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.dll.mdb

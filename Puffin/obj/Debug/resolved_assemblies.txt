@@ -1,0 +1,9 @@
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\Puffin.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\mscorlib.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\System.Core.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\System.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\System.Xml.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\assemblies\System.ServiceModel.Internals.dll

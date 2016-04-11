@@ -1,0 +1,4 @@
+Puffin.MainActivity, Puffin;md553295381e11dbca9b39ee8429e8902f5.MainActivity
+Puffin.MainActivity, Puffin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md553295381e11dbca9b39ee8429e8902f5.MainActivity
+Puffin.MainActivity;md553295381e11dbca9b39ee8429e8902f5.MainActivity
+puffin.MainActivity;md553295381e11dbca9b39ee8429e8902f5.MainActivity
