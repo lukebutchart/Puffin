@@ -4,13 +4,16 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Puffin" android:name="mono.android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="Puffin" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="@string/CollectionButton" android:name="md553295381e11dbca9b39ee8429e8902f5.CollectionActivity" />
     <activity android:icon="@drawable/icon" android:label="Puffin" android:name="md553295381e11dbca9b39ee8429e8902f5.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="@string/PlayButton" android:name="md553295381e11dbca9b39ee8429e8902f5.PlayActivity" />
+    <activity android:label="@string/ShopButton" android:name="md553295381e11dbca9b39ee8429e8902f5.ShopActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Puffin.Puffin.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
