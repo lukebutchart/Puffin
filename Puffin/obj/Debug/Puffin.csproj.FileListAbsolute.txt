@@ -34,5 +34,6 @@ C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\SQLite-net.dll.
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\shoplistitem.xml
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\popup.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\Puffin.dll.mdb
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.dll.mdb

@@ -2288,13 +2288,14 @@ containing a value of this type.
     }
     public static final class id {
         public static final int CollectionButton=0x7f0c0069;
-        public static final int Image=0x7f0c008d;
-        public static final int List=0x7f0c0089;
+        public static final int Heading=0x7f0c0089;
+        public static final int Image=0x7f0c008e;
+        public static final int List=0x7f0c008a;
         public static final int PlayButton=0x7f0c0068;
         public static final int ShopButton=0x7f0c006a;
-        public static final int Text=0x7f0c008a;
-        public static final int Text1=0x7f0c008b;
-        public static final int Text2=0x7f0c008c;
+        public static final int Text=0x7f0c008b;
+        public static final int Text1=0x7f0c008c;
+        public static final int Text2=0x7f0c008d;
         public static final int WelcomeView=0x7f0c0067;
         public static final int action0=0x7f0c007a;
         public static final int action_bar=0x7f0c0055;
@@ -2349,15 +2350,15 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0c0034;
         public static final int fill_vertical=0x7f0c002c;
         public static final int fixed=0x7f0c0036;
-        public static final int group=0x7f0c008f;
+        public static final int group=0x7f0c0090;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000e;
         public static final int icon=0x7f0c0040;
         public static final int ifRoom=0x7f0c001e;
         public static final int image=0x7f0c003d;
         public static final int info=0x7f0c0085;
-        public static final int item1=0x7f0c008e;
-        public static final int item2=0x7f0c0090;
+        public static final int item1=0x7f0c008f;
+        public static final int item2=0x7f0c0091;
         public static final int left=0x7f0c002d;
         public static final int line1=0x7f0c007f;
         public static final int line3=0x7f0c0083;
@@ -2492,12 +2493,13 @@ containing a value of this type.
         public static final int notification_template_part_chronometer=0x7f03002c;
         public static final int notification_template_part_time=0x7f03002d;
         public static final int play=0x7f03002e;
-        public static final int select_dialog_item_material=0x7f03002f;
-        public static final int select_dialog_multichoice_material=0x7f030030;
-        public static final int select_dialog_singlechoice_material=0x7f030031;
-        public static final int shop=0x7f030032;
-        public static final int shoplistitem=0x7f030033;
-        public static final int support_simple_spinner_dropdown_item=0x7f030034;
+        public static final int popup=0x7f03002f;
+        public static final int select_dialog_item_material=0x7f030030;
+        public static final int select_dialog_multichoice_material=0x7f030031;
+        public static final int select_dialog_singlechoice_material=0x7f030032;
+        public static final int shop=0x7f030033;
+        public static final int shoplistitem=0x7f030034;
+        public static final int support_simple_spinner_dropdown_item=0x7f030035;
     }
     public static final class menu {
         public static final int menus=0x7f0e0000;

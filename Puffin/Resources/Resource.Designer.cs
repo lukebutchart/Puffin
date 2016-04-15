@@ -1893,11 +1893,14 @@ namespace Puffin
 			// aapt resource value: 0x7f0c0069
 			public const int CollectionButton = 2131492969;
 			
-			// aapt resource value: 0x7f0c008d
-			public const int Image = 2131493005;
-			
 			// aapt resource value: 0x7f0c0089
-			public const int List = 2131493001;
+			public const int Heading = 2131493001;
+			
+			// aapt resource value: 0x7f0c008e
+			public const int Image = 2131493006;
+			
+			// aapt resource value: 0x7f0c008a
+			public const int List = 2131493002;
 			
 			// aapt resource value: 0x7f0c0068
 			public const int PlayButton = 2131492968;
@@ -1905,14 +1908,14 @@ namespace Puffin
 			// aapt resource value: 0x7f0c006a
 			public const int ShopButton = 2131492970;
 			
-			// aapt resource value: 0x7f0c008a
-			public const int Text = 2131493002;
-			
 			// aapt resource value: 0x7f0c008b
-			public const int Text1 = 2131493003;
+			public const int Text = 2131493003;
 			
 			// aapt resource value: 0x7f0c008c
-			public const int Text2 = 2131493004;
+			public const int Text1 = 2131493004;
+			
+			// aapt resource value: 0x7f0c008d
+			public const int Text2 = 2131493005;
 			
 			// aapt resource value: 0x7f0c0067
 			public const int WelcomeView = 2131492967;
@@ -2076,8 +2079,8 @@ namespace Puffin
 			// aapt resource value: 0x7f0c0036
 			public const int @fixed = 2131492918;
 			
-			// aapt resource value: 0x7f0c008f
-			public const int group = 2131493007;
+			// aapt resource value: 0x7f0c0090
+			public const int group = 2131493008;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int home = 2131492868;
@@ -2097,11 +2100,11 @@ namespace Puffin
 			// aapt resource value: 0x7f0c0085
 			public const int info = 2131492997;
 			
-			// aapt resource value: 0x7f0c008e
-			public const int item1 = 2131493006;
+			// aapt resource value: 0x7f0c008f
+			public const int item1 = 2131493007;
 			
-			// aapt resource value: 0x7f0c0090
-			public const int item2 = 2131493008;
+			// aapt resource value: 0x7f0c0091
+			public const int item2 = 2131493009;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int left = 2131492909;
@@ -2520,22 +2523,25 @@ namespace Puffin
 			public const int Play = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int select_dialog_item_material = 2130903087;
+			public const int Popup = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int select_dialog_multichoice_material = 2130903088;
+			public const int select_dialog_item_material = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int select_dialog_singlechoice_material = 2130903089;
+			public const int select_dialog_multichoice_material = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int Shop = 2130903090;
+			public const int select_dialog_singlechoice_material = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int ShopListItem = 2130903091;
+			public const int Shop = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int support_simple_spinner_dropdown_item = 2130903092;
+			public const int ShopListItem = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int support_simple_spinner_dropdown_item = 2130903093;
 			
 			static Layout()
 			{

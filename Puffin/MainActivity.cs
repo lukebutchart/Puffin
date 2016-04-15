@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.Widget;
 using Android.OS;
+using System.Collections.Generic;
 
 namespace Puffin
 {
@@ -25,11 +26,22 @@ namespace Puffin
             Button collectionButton = FindViewById<Button>(Resource.Id.CollectionButton);
             Button shopButton = FindViewById<Button>(Resource.Id.ShopButton);
 
-            foreach (Collectable coll in AppManager.Collectables)
+            List<string> allCollNames = new List<string>();
+
+            foreach (Collectable coll in mydata.GetAllCollectables())
             {
-                mydata.AddCollectable(coll);
+                allCollNames.Add(coll.Name);
             }
 
+            foreach (Collectable coll in AppManager.Collectables)
+            {
+                if (!allCollNames.Contains(coll.Name))
+                {
+                    mydata.AddCollectable(coll);
+                }
+            }
+
+            mydata.AddPlayer(new Player(AppManager.PlayerName));
 
             playButton.Click += (sender, e) =>
             {
