@@ -27,11 +27,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/ShopButton" />
     <TextView
-        android:text="@string/Ball"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/testBox" />
+    <Button
+        android:text="ClaimCoins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClaimCoinsButton" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
     <Button
         android:text="Reset"
         android:layout_width="match_parent"
