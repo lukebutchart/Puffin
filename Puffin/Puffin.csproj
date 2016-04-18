@@ -100,6 +100,8 @@
     <Compile Include="Collectable.cs" />
     <Compile Include="DatabaseUpdates.cs" />
     <Compile Include="DataManagerHelper.cs" />
+    <Compile Include="Friend.cs" />
+    <Compile Include="HasNameID.cs" />
     <Compile Include="ISQLite.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="MainActivity.cs" />
@@ -130,6 +132,9 @@
     <AndroidResource Include="Resources\layout\Popup.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\CollectionListItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -157,6 +162,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\raw\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Puffin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\SQLitePCL.raw.0.8.6\build\MonoAndroid\SQLitePCL.raw.targets" Condition="Exists('..\packages\SQLitePCL.raw.0.8.6\build\MonoAndroid\SQLitePCL.raw.targets')" />

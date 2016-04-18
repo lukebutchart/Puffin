@@ -35,5 +35,7 @@ C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Xamarin.Forms.C
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\shoplistitem.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\popup.xml
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\puffin.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\collectionlistitem.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\Puffin.dll.mdb
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.dll.mdb
