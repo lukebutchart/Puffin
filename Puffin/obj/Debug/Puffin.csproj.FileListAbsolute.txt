@@ -37,5 +37,14 @@ C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\shop
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\popup.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\puffin.png
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\layout\collectionlistitem.xml
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\ball.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\bandana.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\carrot.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\egg.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\grass.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\icecube.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\paper.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\drawable\penny.png
+C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\res\values\colors.xml
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\obj\Debug\Puffin.dll.mdb
 C:\Users\luke.butchart\Documents\_Puffin\Puffin\Puffin\bin\Debug\Puffin.dll.mdb

@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="Puffin" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="@string/CollectionButton" android:name="md553295381e11dbca9b39ee8429e8902f5.CollectionActivity" />
+    <activity android:label="@string/FriendsButton" android:name="md553295381e11dbca9b39ee8429e8902f5.CollectionActivity" />
     <activity android:icon="@drawable/puffin" android:label="Puffin" android:name="md553295381e11dbca9b39ee8429e8902f5.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

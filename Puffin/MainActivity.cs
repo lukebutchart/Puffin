@@ -181,16 +181,6 @@ namespace Puffin
                     FindViewById<TextView>(Resource.Id.ClaimCoinsButton).Text = String.Format("Claim {0} coins", AppManager.ClaimCoin.ToString());
                 });
             }
-
-            //Player player = AppManager.DBUpdates.GetPlayer(AppManager.PlayerName);
-
-            //player.Coins++;
-            //AppManager.DBUpdates.UpdatePlayer(player);
-
-            //Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
-            //{
-            //    FindViewById<TextView>(Resource.Id.ClaimCoinsButton).Text =  String.Format("Claim {0} coins", AppManager.DBUpdates.GetPlayer(AppManager.PlayerName).Coins.ToString());
-            //});
         }
 
         private static void PopulateTable<T>(DatabaseUpdates mydata)
