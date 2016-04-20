@@ -24,13 +24,15 @@ namespace Puffin
             // Get our button from the layout resource,
             // and attach an event to it
             Button playButton = FindViewById<Button>(Resource.Id.PlayButton);
-            Button collectionButton = FindViewById<Button>(Resource.Id.CollectionButton);
+            Button friendsButton = FindViewById<Button>(Resource.Id.FriendsButton);
             Button shopButton = FindViewById<Button>(Resource.Id.ShopButton);
             Button claimCoinsButton = FindViewById<Button>(Resource.Id.ClaimCoinsButton);
             Button resetButton = FindViewById<Button>(Resource.Id.ResetButton);
 
             List<string> allCollNames = new List<string>();
             List<string> allFriendNames = new List<string>();
+
+            PopupateRand();
 
             //foreach (Collectable coll in mydata.GetAllCollectables())
             //{
@@ -71,7 +73,7 @@ namespace Puffin
                 StartActivity(intent);
             };
 
-            collectionButton.Click += (sender, e) =>
+            friendsButton.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(Puffin.CollectionActivity));
                 StartActivity(intent);
@@ -85,7 +87,15 @@ namespace Puffin
 
             claimCoinsButton.Click += (sender, e) =>
             {
-                
+                Player player = AppManager.DBUpdates.GetPlayer(AppManager.PlayerName);
+                player.Coins += AppManager.ClaimCoin;
+                AppManager.DBUpdates.UpdatePlayer(player);
+                AppManager.ClaimCoin = 0;
+
+                Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
+                {
+                    FindViewById<TextView>(Resource.Id.ClaimCoinsButton).Text = String.Format("Claim {0} coins", AppManager.ClaimCoin.ToString());
+                });
             };
 
             resetButton.Click += (sender, e) =>
@@ -127,7 +137,8 @@ namespace Puffin
                     PopulateTable<Friend>(mydata);
                 });
 
-                alert.SetNegativeButton("No", (senderAlert, args) => {                    
+                alert.SetNegativeButton("No", (senderAlert, args) =>
+                {
                 });
 
                 Dialog dialog = alert.Create();
@@ -139,9 +150,27 @@ namespace Puffin
             var timer = new System.Threading.Timer(e => OnTimer(), null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
         }
 
+        private static void PopupateRand()
+        {
+            Random rand = new Random();
+            List<List<int>> randList = new List<List<int>>();
+
+            for (int i = 0; i < 20; i++)
+            {
+                randList.Add(new List<int>());
+
+                for (int j = 0; j < 100; j++)
+                {
+                    randList[i].Add(rand.Next(i));
+                }
+            }
+
+            AppManager.RandomSeeds = randList;
+        }
+
         void OnTimer()
         {
-            int coin = AppManager.ClaimCoin;
+            //int coin = AppManager.ClaimCoin;
 
             if (AppManager.ClaimCoin < 10)
             {
@@ -149,7 +178,7 @@ namespace Puffin
 
                 Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
                 {
-                    FindViewById<TextView>(Resource.Id.ClaimCoinsButton).Text = String.Format("Claim {0} coins", coins.ToString());
+                    FindViewById<TextView>(Resource.Id.ClaimCoinsButton).Text = String.Format("Claim {0} coins", AppManager.ClaimCoin.ToString());
                 });
             }
 

@@ -17,10 +17,10 @@
         android:layout_height="wrap_content"
         android:text="@string/PlayButton" />
     <Button
-        android:text="@string/CollectionButton"
+        android:text="@string/FriendsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/CollectionButton" />
+        android:id="@+id/FriendsButton" />
     <Button
         android:text="@string/ShopButton"
         android:layout_width="match_parent"

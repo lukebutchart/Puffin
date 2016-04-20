@@ -2288,13 +2288,15 @@ containing a value of this type.
         public static final int puffin=0x7f020063;
     }
     public static final class id {
+        public static final int CheckButton=0x7f0c008e;
         public static final int ClaimCoinsButton=0x7f0c0070;
-        public static final int CollectionButton=0x7f0c006d;
-        public static final int Heading=0x7f0c008f;
+        public static final int DiscoverButton=0x7f0c0090;
+        public static final int FriendsButton=0x7f0c006d;
+        public static final int Heading=0x7f0c0091;
         public static final int Image=0x7f0c0068;
-        public static final int ItemCost=0x7f0c0090;
+        public static final int ItemCost=0x7f0c0092;
         public static final int ItemName=0x7f0c0066;
-        public static final int ItemOwned=0x7f0c0091;
+        public static final int ItemOwned=0x7f0c0093;
         public static final int ItemTimesSeen=0x7f0c0067;
         public static final int List=0x7f0c0064;
         public static final int PlayButton=0x7f0c006c;
@@ -2323,7 +2325,6 @@ containing a value of this type.
         public static final int art=0x7f0c0079;
         public static final int beginning=0x7f0c0019;
         public static final int bottom=0x7f0c0028;
-        public static final int button1=0x7f0c008e;
         public static final int buttonPanel=0x7f0c004b;
         public static final int buttons=0x7f0c007e;
         public static final int cancel_action=0x7f0c0082;
@@ -2355,15 +2356,15 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0c0034;
         public static final int fill_vertical=0x7f0c002c;
         public static final int fixed=0x7f0c0036;
-        public static final int group=0x7f0c0093;
+        public static final int group=0x7f0c0095;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000e;
         public static final int icon=0x7f0c0040;
         public static final int ifRoom=0x7f0c001e;
         public static final int image=0x7f0c003d;
         public static final int info=0x7f0c008c;
-        public static final int item1=0x7f0c0092;
-        public static final int item2=0x7f0c0094;
+        public static final int item1=0x7f0c0094;
+        public static final int item2=0x7f0c0096;
         public static final int left=0x7f0c002d;
         public static final int line1=0x7f0c0086;
         public static final int line3=0x7f0c008a;
@@ -2411,6 +2412,7 @@ containing a value of this type.
         public static final int showTitle=0x7f0c0012;
         public static final int snackbar_action=0x7f0c006a;
         public static final int snackbar_text=0x7f0c0069;
+        public static final int spinner1=0x7f0c008f;
         public static final int split_action_bar=0x7f0c0007;
         public static final int src_atop=0x7f0c0016;
         public static final int src_in=0x7f0c0017;
@@ -2512,7 +2514,7 @@ containing a value of this type.
     public static final class string {
         public static final int ApplicationName=0x7f06001e;
         public static final int Ball=0x7f060022;
-        public static final int CollectionButton=0x7f060020;
+        public static final int FriendsButton=0x7f060020;
         public static final int PlayButton=0x7f06001f;
         public static final int ShopButton=0x7f060021;
         public static final int abc_action_bar_home_description=0x7f06000b;

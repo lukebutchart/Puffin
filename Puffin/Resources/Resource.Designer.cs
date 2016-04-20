@@ -1893,26 +1893,32 @@ namespace Puffin
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0c008e
+			public const int CheckButton = 2131493006;
+			
 			// aapt resource value: 0x7f0c0070
 			public const int ClaimCoinsButton = 2131492976;
 			
-			// aapt resource value: 0x7f0c006d
-			public const int CollectionButton = 2131492973;
+			// aapt resource value: 0x7f0c0090
+			public const int DiscoverButton = 2131493008;
 			
-			// aapt resource value: 0x7f0c008f
-			public const int Heading = 2131493007;
+			// aapt resource value: 0x7f0c006d
+			public const int FriendsButton = 2131492973;
+			
+			// aapt resource value: 0x7f0c0091
+			public const int Heading = 2131493009;
 			
 			// aapt resource value: 0x7f0c0068
 			public const int Image = 2131492968;
 			
-			// aapt resource value: 0x7f0c0090
-			public const int ItemCost = 2131493008;
+			// aapt resource value: 0x7f0c0092
+			public const int ItemCost = 2131493010;
 			
 			// aapt resource value: 0x7f0c0066
 			public const int ItemName = 2131492966;
 			
-			// aapt resource value: 0x7f0c0091
-			public const int ItemOwned = 2131493009;
+			// aapt resource value: 0x7f0c0093
+			public const int ItemOwned = 2131493011;
 			
 			// aapt resource value: 0x7f0c0067
 			public const int ItemTimesSeen = 2131492967;
@@ -1997,9 +2003,6 @@ namespace Puffin
 			
 			// aapt resource value: 0x7f0c0028
 			public const int bottom = 2131492904;
-			
-			// aapt resource value: 0x7f0c008e
-			public const int button1 = 2131493006;
 			
 			// aapt resource value: 0x7f0c004b
 			public const int buttonPanel = 2131492939;
@@ -2094,8 +2097,8 @@ namespace Puffin
 			// aapt resource value: 0x7f0c0036
 			public const int @fixed = 2131492918;
 			
-			// aapt resource value: 0x7f0c0093
-			public const int group = 2131493011;
+			// aapt resource value: 0x7f0c0095
+			public const int group = 2131493013;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int home = 2131492868;
@@ -2115,11 +2118,11 @@ namespace Puffin
 			// aapt resource value: 0x7f0c008c
 			public const int info = 2131493004;
 			
-			// aapt resource value: 0x7f0c0092
-			public const int item1 = 2131493010;
-			
 			// aapt resource value: 0x7f0c0094
-			public const int item2 = 2131493012;
+			public const int item1 = 2131493012;
+			
+			// aapt resource value: 0x7f0c0096
+			public const int item2 = 2131493014;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int left = 2131492909;
@@ -2261,6 +2264,9 @@ namespace Puffin
 			
 			// aapt resource value: 0x7f0c0069
 			public const int snackbar_text = 2131492969;
+			
+			// aapt resource value: 0x7f0c008f
+			public const int spinner1 = 2131493007;
 			
 			// aapt resource value: 0x7f0c0007
 			public const int split_action_bar = 2131492871;
@@ -2594,7 +2600,7 @@ namespace Puffin
 			public const int Ball = 2131099682;
 			
 			// aapt resource value: 0x7f060020
-			public const int CollectionButton = 2131099680;
+			public const int FriendsButton = 2131099680;
 			
 			// aapt resource value: 0x7f06001f
 			public const int PlayButton = 2131099679;
